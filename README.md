@@ -1,17 +1,22 @@
-# minst-digit-recognizer
-This project builds a simple neural network from scratch (without using deep learning libraries like TensorFlow or PyTorch) to classify handwritten digits from the MNIST dataset. It uses:
+# MNIST Digit Recognizer (Neural Network from Scratch)
+This project builds a simple neural network from scratch (without using deep learning libraries like TensorFlow or PyTorch) to classify handwritten digits from the MNIST dataset.
 
-A two-layer neural network: one hidden layer with ReLU activation, and an output layer with softmax activation for multiclass classification (digits 0–9).
+## Features
+🧠 Two-layer Neural Network:
 
-Forward propagation to compute predictions and backpropagation to compute gradients and update weights using gradient descent.
+Hidden layer with ReLU activation
 
-Data normalization to improve training performance.
+Output layer with Softmax activation
 
-One-hot encoding for the output labels.
+⚡ Forward Propagation and Backpropagation (manual gradient computation)
 
-Accuracy tracking during training and visualization of how the model improves over time.
+🛠️ Gradient Descent Optimization
 
-The model is trained on a large dataset of handwritten digits and then evaluated on a development set to check how well it generalizes.
+📈 Training Accuracy Tracking and Visualization
 
-File : digit-recognizer pt 2 has an accuracy of 88% 
-File : digit-recognizer is a slower version of the above and has some bugs
+📚 Clean, fully-commented code — great for learning!
+
+## Demo
+Achieves ~88% accuracy on the MNIST development set.
+
+
