@@ -16,7 +16,6 @@ Output layer with Softmax activation
 
 📚 Clean, fully-commented code — great for learning!
 
-## Demo
 Achieves ~88% accuracy on the MNIST development set.
 
 
